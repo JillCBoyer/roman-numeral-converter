@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Noto+Sans+Gothic&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {    
+    background-image: url("./background.jpg");  
+}
+
+#container {
+    padding: 30px;
+    width: 65%;
+    margin: 75px auto;
+    background-color: rgba(240, 248, 255, 30%);
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Carrois Gothic SC', sans-serif;   
+}
+
+.text {
+    color: black;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+}
+
+#number {
+    width: 180px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    border: 1px solid rgb(4,106,111);
+    margin-right: 3px;
+}
+
+#number::placeholder {
+    color: rgb(4,106,111);
+}
+
+#convert-btn {
+    margin: 15px auto;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    width: 150px;
+    background-color: rgb(4,106,111);
+    color: white;
+    border: 1px solid rgb(4,106,111);
+    margin-left: 3px;
+}
+
+#output {
+    color: #046a6f;
+    font-size: 2rem;
+    font-weight: 700;
+}
